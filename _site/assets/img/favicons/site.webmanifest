@@ -1,9 +1,10 @@
 
 
 {
-  "name": "Chirpy",
-  "short_name": "Chirpy",
-  "description": "A minimal, responsive and feature-rich Jekyll theme for technical writing.",
+  "name": "코딩하는 말하는 감자",
+  "short_name": "코딩하는 말하는 감자",
+  "description": "우당탕탕 와르르멘션 개발일지
+",
   "icons": [
     {
       "src": "/assets/img/favicons/android-chrome-192x192.png",

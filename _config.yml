@@ -1,4 +1,4 @@
-# theme: jekyll-theme-chirpy
+theme: jekyll-theme-chirpy
 
 lang: en
 
@@ -125,8 +125,13 @@ pwa:
 
 paginate: 10
 
+plugins:
+  - jekyll-include-cache
+  - jekyll-paginate
+  - jekyll-seo-tag
+
 # The base URL of your site
-baseurl: "https://oding01.github.io"
+baseurl: ""
 
 # ------------ The following options are not recommended to be modified ------------------
 
