@@ -4,9 +4,9 @@ lang: en
 
 timezone: Asia/Seoul
 
-title: 코딩하는 말하는 감자
+title: 코딩하는 감자
 
-tagline: 주니어 프론트엔드 개발자자
+tagline: 주니어 프론트엔드 개발자의 우당탕탕 개발일지
 
 description: >
   우당탕탕 와르르멘션 개발일지
@@ -16,8 +16,8 @@ url: "https://oding01.github.io"
 github:
   username: oding01
 
-twitter:
-  username: ""
+# twitter:
+#   username: ""
 
 social:
   name: 이어진
@@ -71,10 +71,10 @@ theme_mode: # [light | dark]
 # will be added to all media resources (site avatar, posts' images, audio and video files) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-cdn: "https://chirpy-img.netlify.app"
+# cdn: "https://chirpy-img.netlify.app"
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "/assets/img/icno-kitty.png"
+avatar: "/assets/img/icon-kitty.png"
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
