@@ -2,8 +2,8 @@
 title : "GitHub 블로그를 생성해보자! - Chirpy 테마"
 author: potato
 date : 2025-01-11 09:00:00 +0900
-categories : [Blog]
-tags: [github, blog]
+categories : [Guide, blog]
+tags: [github, blog, guide]
 image:
   path: https://github.com/user-attachments/assets/9c201dab-f025-4562-ac11-5d9239d872e5
 description: Chirpy 테마로 GitHub 블로그 만들기
