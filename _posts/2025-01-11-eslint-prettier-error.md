@@ -1,11 +1,13 @@
 ---
-title : [VSCode] Eslint&Prettier 설정 시 Delete `␍` eslint(prettier/prettier) 에러 해결
+title : "[VSCode] Eslint&Prettier 설정 시 Delete `␍` eslint(prettier/prettier) 에러 해결"
 author : 코딩하는 감자
 date : 2025-01-11 08:50:00 +0900
 categories : [VSCode, TroubleShooting, Next.js]
 tags: [vscode, troubleshooting]
+tocs: true
 ---
-# ⚠️ 문제제
+
+# ⚠️ 문제
 ```javascript
 import React from 'react';
 
@@ -70,6 +72,7 @@ module.exports = {
 ```
 `endOfLine: 'auto'`를 추가하자마자 빨간 줄이 사라졌다! 역시 구글링의 힘은 대단하다.
 <br>
+
 ***
 [참고(감사합니다!)]
 https://guiyomi.tistory.com/134
