@@ -6,7 +6,6 @@ categories : [Blog]
 tags: [github, blog]
 image:
   path: https://github.com/user-attachments/assets/9c201dab-f025-4562-ac11-5d9239d872e5
-  alt: 썸네일
 description: Chirpy 테마로 GitHub 블로그 만들기
 ---
 

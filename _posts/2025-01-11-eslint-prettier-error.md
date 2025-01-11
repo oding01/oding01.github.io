@@ -1,12 +1,12 @@
 ---
-title : "[VSCode] Eslint&Prettier 설정 시 Delete `␍` eslint(prettier/prettier) 에러 해결"
+title : "[VSCode] ESLint&Prettier 설정 시 Delete `␍` eslint(prettier/prettier) 에러 해결"
 author : potato
 date : 2025-01-11 08:50:00 +0900
 categories : [VSCode, TroubleShooting]
 tags: [vscode, troubleshooting]
 image:
   path: https://github.com/user-attachments/assets/cc584f76-b207-47df-aae1-9605a42af368
-  alt: 썸네일
+description: ESLint와 Prettier 설정 시 Delete `␍` eslint(prettier/prettier) 에러 해결
 ---
 
 ## ⚠️ 문제
