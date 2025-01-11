@@ -1,9 +1,13 @@
 ---
 title : "GitHub 블로그를 생성해보자! - Chirpy 테마"
 author: potato
-date : 2025-01-11 08:50:00 +0900
+date : 2025-01-11 09:00:00 +0900
 categories : [Blog]
 tags: [github, blog]
+image:
+  path: https://github.com/user-attachments/assets/9c201dab-f025-4562-ac11-5d9239d872e5
+  alt: 썸네일
+description: Chirpy 테마로 GitHub 블로그 만들기
 ---
 
 > 1. 이 글은 Github 아이디가 존재하고, **USERNAME.github.io** 레포지토리가 생성되어 있다는 가정하에 진행합니다.
@@ -65,6 +69,10 @@ git clone https://github.com/USERNAME/USERNAME.github.io.git
 
 1번은 간단하지만, 이게 블로그 글 작성 후 commit을 하게 되면 잔디가 심어지지 않는다하더라구요...   
 이미 gihub.io 레포지토리가 있기도 하고 그래서 전 2번으로 갔습니다.   
+
+> 만약 fork 했다면, 아마 master 브랜치라고 되어 있을텐데 바꿔줍니다. 저장소 이름도 `USERNAME.github.io`로 바꿔줘야 합니다.
+![스크린샷 2025-01-12 032136](https://github.com/user-attachments/assets/3fe3502a-aac5-49d4-9cfe-0726903e4f47)
+![스크린샷 2025-01-12 032157](https://github.com/user-attachments/assets/d3dec64a-2969-4f0f-aa63-a607790616d1)
 
 ![cloneroot](https://github.com/user-attachments/assets/3b9b130c-54a0-4f1f-97aa-9b06bc42c3ae)
 
@@ -246,7 +254,38 @@ _홈페이지 접속_
 2. Configure를 선택합니다.   
 ![image](https://github.com/user-attachments/assets/040913b7-1c11-4df1-9fc7-442dd169dd2f)
 
-3. 별도의 수정 없이 Commit changes...를 선택 후, Commit changes를 클릭합니다.
+3. Commit changes...를 선택 후, Commit changes를 클릭합니다.   
+
+> 본인이 설치한 버전과 맞는지 확인해주세요!   
+저는 가상 환경이고 ruby도 3.2.6을 깔아서 변경 후 진행했습니다.
+```yml
+jobs:
+  # Build job
+  build:
+    runs-on: ubuntu-22.04   # 변경 부분
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@8575951200e472d5f2d95c625da0c7bec8217c42 # v1.161.0
+        with:
+          ruby-version: "3.2"   # 변경 부분
+          bundler-cache: true
+          cache-version: 0
+      - name: Setup Pages
+  ...
+  ...
+  # Deployment job
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-22.04   # 변경 부분
+    needs: build
+```
+{: .prompt-danger }
+
+
 ![image](https://github.com/user-attachments/assets/f955d17a-4488-4452-a9f2-9a1bebb5a56b)
 ![스크린샷 2025-01-12 005830](https://github.com/user-attachments/assets/4bed8c5b-5bc2-4993-a740-e9d3d8987027)
 
@@ -257,13 +296,13 @@ git pull
 
 5. 그 외
 
-> 구글링하며 하라고 권장장했던 동작들입니다. 전 문제 없이 동작해서 해주지 않았지만, 오류가 난다면 시도해보세요.
+> 구글링하며 하라고 권장했던 동작들입니다. 전 문제 없이 동작해서 해주지 않았지만, 오류가 난다면 시도해보세요.
 {: .prompt-tip }
 
-- .gihub > workflow 디렉토리 내에서 기존 배포 방식(Deploy form a branch)에 사용되던 파일을 삭제합니다.
-- .gitignore 내 assets/js/dist 디렉토리 내 파일들의 Push가 무시되도록하는 설정을 주석처리 합니다.
+- `.gihub > workflow` 디렉토리 내에서 기존 배포 방식(Deploy form a branch)에 사용되던 파일을 삭제합니다.
+- `.gitignore` 내 `assets/js/dist` 디렉토리 내 파일들의 Push가 무시되도록하는 설정을 주석처리 합니다.
 
-### 5.5. 배포하기
+### 5.5. 해치웠나?
 이제 레포지토리에 배포해봅시다 !   
 
 ```bash
