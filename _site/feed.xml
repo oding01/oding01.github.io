@@ -5,7 +5,7 @@
   <title>코딩하는 감자</title>
   <subtitle>우당탕탕 와르르멘션 개발일지
 </subtitle>
-  <updated>2025-01-12T04:19:07+09:00</updated>
+  <updated>2025-01-12T05:20:57+09:00</updated>
   <author>
     <name>이어진</name>
     <uri>http://localhost:4000/</uri>
@@ -25,7 +25,7 @@
     <link href="http://localhost:4000/posts/gitblog-create/" rel="alternate" type="text/html" title="GitHub 블로그를 생성해보자! - Chirpy 테마" />
     <published>2025-01-11T09:00:00+09:00</published>
   
-    <updated>2025-01-12T04:16:01+09:00</updated>
+    <updated>2025-01-12T04:45:42+09:00</updated>
   
     <id>http://localhost:4000/posts/gitblog-create/</id>
     <content type="text/html" src="http://localhost:4000/posts/gitblog-create/" />
@@ -45,11 +45,11 @@
 
   
   <entry>
-    <title>[VSCode] Eslint&amp;Prettier 설정 시 Delete `␍` eslint(prettier/prettier) 에러 해결</title>
-    <link href="http://localhost:4000/posts/eslint-prettier-error/" rel="alternate" type="text/html" title="[VSCode] Eslint&amp;amp;Prettier 설정 시 Delete `␍` eslint(prettier/prettier) 에러 해결" />
+    <title>[VSCode] ESLint&amp;Prettier 설정 시 Delete `␍` eslint(prettier/prettier) 에러 해결</title>
+    <link href="http://localhost:4000/posts/eslint-prettier-error/" rel="alternate" type="text/html" title="[VSCode] ESLint&amp;amp;Prettier 설정 시 Delete `␍` eslint(prettier/prettier) 에러 해결" />
     <published>2025-01-11T08:50:00+09:00</published>
   
-    <updated>2025-01-12T04:16:01+09:00</updated>
+    <updated>2025-01-12T04:45:42+09:00</updated>
   
     <id>http://localhost:4000/posts/eslint-prettier-error/</id>
     <content type="text/html" src="http://localhost:4000/posts/eslint-prettier-error/" />
@@ -65,37 +65,7 @@
     
   
 
-  <summary>⚠️ 문제
-
-  
-    import React from &amp;#39;react&amp;#39;;
-
-function LoginPage() {
-	return (
-		&amp;amp;lt;div&amp;amp;gt;
-			&amp;amp;lt;div&amp;amp;gt;LoginPage&amp;amp;lt;/div&amp;amp;gt;
-		&amp;amp;lt;/div&amp;amp;gt;
-	);
-}
-
-export default LoginPage;
-
-  
-
-
-
-
-eslint와 prettier 설정 후 간단한 테스트 컴포넌트를 만들어보는데 이런 오류가 떴다.
-
-
-  Delete ‘␍’ eslint(prettier/prettier)
-
-
-엥 이게 뭐지? 기본 index 페이지에서는 뜨지 않는 오류였다.
-
-🎈생각
-
-  eslint(prettier/prettier) 에서 오류가 났으니 .eslintrc.js(json을 js로 바꿨다) 설정에서 뭔가 잘...</summary>
+  <summary>ESLint와 Prettier 설정 시 Delete `␍` eslint(prettier/prettier) 에러 해결</summary>
 
   </entry>
 
