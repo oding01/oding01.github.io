@@ -4,10 +4,11 @@ author : 코딩하는 감자
 date : 2025-01-11 08:50:00 +0900
 categories : [VSCode, TroubleShooting, Next.js]
 tags: [vscode, troubleshooting]
-tocs: true
+toc: true
 ---
 
 # ⚠️ 문제
+{: .mt-4 .mb-4 }
 ```javascript
 import React from 'react';
 
@@ -74,5 +75,4 @@ module.exports = {
 <br>
 
 ***
-[참고(감사합니다!)]
-https://guiyomi.tistory.com/134
+[참고(감사합니다!)](https://guiyomi.tistory.com/134)
