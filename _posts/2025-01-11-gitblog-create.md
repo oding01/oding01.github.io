@@ -248,6 +248,12 @@ _홈페이지 접속_
 #### 🗝️ 해결
 ~~got you~~~ 또 수시간의 구글링으로 답을 찾았습니다.  
 
+> Linux 외 환경은 모두 아래 명령어 실행 후 진행해주세요.
+```console
+bundle lock --add-platform x86_64-linux
+```
+{: .prompt-warning}
+
 1. 배포 전 아래와 같이 Settings - Pages - Build and deployment 에서 소스를 GitHub Actions로 변경합니다.   
 ![image](https://github.com/user-attachments/assets/5cbb5530-c611-44f9-92fd-6f2eb131f49e)
 

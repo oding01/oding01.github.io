@@ -5,7 +5,7 @@
   <title>코딩하는 감자</title>
   <subtitle>우당탕탕 와르르멘션 개발일지
 </subtitle>
-  <updated>2025-01-12T05:20:57+09:00</updated>
+  <updated>2025-01-12T05:31:11+09:00</updated>
   <author>
     <name>이어진</name>
     <uri>http://localhost:4000/</uri>
@@ -25,7 +25,7 @@
     <link href="http://localhost:4000/posts/gitblog-create/" rel="alternate" type="text/html" title="GitHub 블로그를 생성해보자! - Chirpy 테마" />
     <published>2025-01-11T09:00:00+09:00</published>
   
-    <updated>2025-01-12T04:45:42+09:00</updated>
+    <updated>2025-01-12T05:21:15+09:00</updated>
   
     <id>http://localhost:4000/posts/gitblog-create/</id>
     <content type="text/html" src="http://localhost:4000/posts/gitblog-create/" />
