@@ -1,5 +1,4 @@
 theme: jekyll-theme-chirpy
-# remote_theme: cotes2020/jekyll-theme-chirpy@v6.5.1
 
 lang: en
 
@@ -124,13 +123,12 @@ pwa:
     deny_paths:
       # - "/example"  # URLs match `<SITE_URL>/example/*` will not be cached by the PWA
 
-paginate: 10
+paginate: 4
 
 plugins:
   - jekyll-include-cache
   - jekyll-paginate
   - jekyll-seo-tag
-  # - jekyll-remote-theme
 
 # The base URL of your site
 baseurl: ""
@@ -138,6 +136,7 @@ baseurl: ""
 # ------------ The following options are not recommended to be modified ------------------
 
 kramdown:
+  parse_block_html: true
   footnote_backlink: "&#8617;&#xfe0e;"
   syntax_highlighter: rouge
   syntax_highlighter_opts: # Rouge Options › https://github.com/jneen/rouge#full-options
