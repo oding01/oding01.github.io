@@ -5,7 +5,7 @@
   <title>코딩하는 감자</title>
   <subtitle>우당탕탕 와르르멘션 개발일지
 </subtitle>
-  <updated>2025-01-11T21:51:52+09:00</updated>
+  <updated>2025-01-11T22:06:00+09:00</updated>
   <author>
     <name>이어진</name>
     <uri>http://localhost:4000/</uri>
@@ -25,7 +25,7 @@
     <link href="http://localhost:4000/posts/eslint-prettier-error/" rel="alternate" type="text/html" title="[VSCode] Eslint&amp;amp;Prettier 설정 시 Delete `␍` eslint(prettier/prettier) 에러 해결" />
     <published>2025-01-11T08:50:00+09:00</published>
   
-    <updated>2025-01-11T21:39:49+09:00</updated>
+    <updated>2025-01-11T21:54:48+09:00</updated>
   
     <id>http://localhost:4000/posts/eslint-prettier-error/</id>
     <content type="text/html" src="http://localhost:4000/posts/eslint-prettier-error/" />
@@ -140,7 +140,7 @@ Prepare a square image (PNG, JPG, or SVG) with a size of 512x512 or more, and th
     <link href="http://localhost:4000/posts/getting-started/" rel="alternate" type="text/html" title="Getting Started" />
     <published>2019-08-09T21:55:00+09:00</published>
   
-    <updated>2019-08-09T21:55:00+09:00</updated>
+    <updated>2025-01-11T21:54:48+09:00</updated>
   
     <id>http://localhost:4000/posts/getting-started/</id>
     <content type="text/html" src="http://localhost:4000/posts/getting-started/" />

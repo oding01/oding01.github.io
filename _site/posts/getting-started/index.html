@@ -43,7 +43,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Getting Started" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Cotes Chung","url":"https://github.com/cotes2020/"},"dateModified":"2019-08-09T21:55:00+09:00","datePublished":"2019-08-09T21:55:00+09:00","description":"Get started with Chirpy basics in this comprehensive overview. You will learn how to install, configure, and use your first Chirpy-based website, as well as deploy it to a web server.","headline":"Getting Started","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/getting-started/"},"url":"http://localhost:4000/posts/getting-started/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Cotes Chung","url":"https://github.com/cotes2020/"},"dateModified":"2025-01-11T21:54:48+09:00","datePublished":"2019-08-09T21:55:00+09:00","description":"Get started with Chirpy basics in this comprehensive overview. You will learn how to install, configure, and use your first Chirpy-based website, as well as deploy it to a web server.","headline":"Getting Started","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/getting-started/"},"url":"http://localhost:4000/posts/getting-started/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -257,7 +257,7 @@
     <a href="/" id="avatar" class="rounded-circle"><img src="/assets/img/icon-kitty.png" width="112" height="112" alt="avatar" onerror="this.style.display='none'"></a>
 
     <a class="site-title d-block" href="/">코딩하는 감자</a>
-    <p class="site-subtitle fst-italic mb-0">주니어 프론트엔드 개발자의 우당탕탕 개발일지</p>
+    <p class="site-subtitle fst-italic mb-0">우당탕탕 개발일지</p>
   </header>
   <!-- .profile-wrapper -->
 
@@ -914,9 +914,7 @@
 <!-- return -->
 
 
-
-
-
+ 
 
 
 
@@ -926,14 +924,13 @@
   <header>
     <h1 data-toc-skip>Getting Started</h1>
     
-      <p class="post-desc fw-light mb-4">Get started with Chirpy basics in this comprehensive overview. You will learn how to install, configure, and use your first Chirpy-based website, as well as deploy it to a web server.</p>
+    <p class="post-desc fw-light mb-4">Get started with Chirpy basics in this comprehensive overview. You will learn how to install, configure, and use your first Chirpy-based website, as well as deploy it to a web server.</p>
     
 
     <div class="post-meta text-muted">
       <!-- published date -->
       <span>
-        Posted
-        <!--
+        Posted <!--
   Date format snippet
   See: ${JS_ROOT}/utils/locale-dateime.js
 -->
@@ -956,23 +953,38 @@
 
       <!-- lastmod date -->
       
+      <span>
+        Updated <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
 
-      
+
+
+
+<time
+  
+  data-ts="1736600088"
+  data-df="ll"
+  
+    data-bs-toggle="tooltip" data-bs-placement="bottom"
+  
+>
+  Jan 11, 2025
+</time>
+
+      </span>
+       
 
       <div class="d-flex justify-content-between">
         <!-- author(s) -->
         <span>
-          
-
-          By
+           By
 
           <em>
-            
-              
-                <a href="https://github.com/cotes2020/">Cotes Chung</a>
-                
-              
-            
+              <a href="https://github.com/cotes2020/"
+              >Cotes Chung</a
+            >   
           </em>
         </span>
 
@@ -1004,31 +1016,45 @@
   </header>
 
   
-    <div id="toc-bar" class="d-flex align-items-center justify-content-between invisible">
-      <span class="label text-truncate">Getting Started</span>
-      <button type="button" class="toc-trigger btn me-1">
-        <i class="fa-solid fa-list-ul fa-fw"></i>
+  <div
+    id="toc-bar"
+    class="d-flex align-items-center justify-content-between invisible"
+  >
+    <span class="label text-truncate">Getting Started</span>
+    <button type="button" class="toc-trigger btn me-1">
+      <i class="fa-solid fa-list-ul fa-fw"></i>
+    </button>
+  </div>
+
+  <button
+    id="toc-solo-trigger"
+    type="button"
+    class="toc-trigger btn btn-outline-secondary btn-sm"
+  >
+    <span class="label ps-2 pe-1"
+      >Contents</span
+    >
+    <i class="fa-solid fa-angle-right fa-fw"></i>
+  </button>
+
+  <dialog id="toc-popup" class="p-0">
+    <div
+      class="header d-flex flex-row align-items-center justify-content-between"
+    >
+      <div class="label text-truncate py-2 ms-4">Getting Started</div>
+      <button
+        id="toc-popup-close"
+        type="button"
+        class="btn mx-1 my-1 opacity-75"
+      >
+        <i class="fas fa-close"></i>
       </button>
     </div>
-
-    <button id="toc-solo-trigger" type="button" class="toc-trigger btn btn-outline-secondary btn-sm">
-      <span class="label ps-2 pe-1">Contents</span>
-      <i class="fa-solid fa-angle-right fa-fw"></i>
-    </button>
-
-    <dialog id="toc-popup" class="p-0">
-      <div class="header d-flex flex-row align-items-center justify-content-between">
-        <div class="label text-truncate py-2 ms-4">Getting Started</div>
-        <button id="toc-popup-close" type="button" class="btn mx-1 my-1 opacity-75">
-          <i class="fas fa-close"></i>
-        </button>
-      </div>
-      <div id="toc-popup-content" class="px-4 py-3 pb-4"></div>
-    </dialog>
+    <div id="toc-popup-content" class="px-4 py-3 pb-4"></div>
+  </dialog>
   
 
-  <div class="content">
-    <h2 id="creating-a-site-repository"><span class="me-2">Creating a Site Repository</span><a href="#creating-a-site-repository" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+  <div class="content"><h2 id="creating-a-site-repository"><span class="me-2">Creating a Site Repository</span><a href="#creating-a-site-repository" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 
 <p>When creating your site repository, you have two options depending on your needs:</p>
 
@@ -1187,49 +1213,47 @@
 
 <p>Unless you specified the output path, the generated site files will be placed in the <code class="language-plaintext filepath highlighter-rouge">_site</code> folder of the project’s root directory. Upload these files to your target server.</p>
 
-
-  </div>
+</div>
 
   <div class="post-tail-wrapper text-muted">
     <!-- categories -->
     
-      <div class="post-meta mb-3">
-        <i class="far fa-folder-open fa-fw me-1"></i>
-        
-          <a href="/categories/blogging/">Blogging</a>,
-          <a href="/categories/tutorial/">Tutorial</a>
-      </div>
+    <div class="post-meta mb-3">
+      <i class="far fa-folder-open fa-fw me-1"></i>
+      
+      <a
+        href="/categories/blogging/"
+        >Blogging</a
+      >,
+      <a
+        href="/categories/tutorial/"
+        >Tutorial</a
+      >
+    </div>
     
 
     <!-- tags -->
     
-      <div class="post-tags">
-        <i class="fa fa-tags fa-fw me-1"></i>
-        
-          <a
-            href="/tags/getting-started/"
-            class="post-tag no-text-decoration"
-          >getting started</a>
-        
-      </div>
+    <div class="post-tags">
+      <i class="fa fa-tags fa-fw me-1"></i>
+      
+      <a
+        href="/tags/getting-started/"
+        class="post-tag no-text-decoration"
+      >getting started</a>
+      
+    </div>
     
 
     <div
-      class="
-        post-tail-bottom
-        d-flex justify-content-between align-items-center mt-5 pb-2
-      "
+      class="post-tail-bottom d-flex justify-content-between align-items-center mt-5 pb-2"
     >
       <div class="license-wrapper">
-        
-          
-
           This post is licensed under 
         <a href="https://creativecommons.org/licenses/by/4.0/">
           CC BY 4.0
         </a>
-         by the author.
-        
+         by the author. 
       </div>
 
       <!-- Post sharing snippet -->
@@ -1283,6 +1307,14 @@
   </div>
   <!-- div.post-tail-wrapper -->
 </article>
+<script
+  src="https://utteranc.es/client.js"
+  repo="oding01/oding01.github.io"
+  issue-term="pathname"
+  theme="github-light"
+  crossorigin="anonymous"
+  async
+></script>
 
 
             
@@ -1314,6 +1346,20 @@
         
         
         <li class="text-truncate lh-lg">
+          <a href="/posts/text-and-typography/">Text and Typography</a>
+        </li>
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
+          <a href="/posts/getting-started/">Getting Started</a>
+        </li>
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
           <a href="/posts/eslint-prettier-error/">[VSCode] Eslint&Prettier 설정 시 Delete `␍` eslint(prettier/prettier) 에러 해결</a>
         </li>
       
@@ -1329,20 +1375,6 @@
         
         <li class="text-truncate lh-lg">
           <a href="/posts/customize-the-favicon/">Customize the Favicon</a>
-        </li>
-      
-        
-        
-        
-        <li class="text-truncate lh-lg">
-          <a href="/posts/getting-started/">Getting Started</a>
-        </li>
-      
-        
-        
-        
-        <li class="text-truncate lh-lg">
-          <a href="/posts/write-a-new-post/">Writing a New Post</a>
         </li>
       
     </ul>
