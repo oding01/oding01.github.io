@@ -337,4 +337,13 @@ git push origin main
 
 Github 블로그는 잘 노출되게 해주려면 검색엔진 등록 작업을 해야합니다.   
 
-다음 글은 블로그를 검색엔진에 등록하는 방법을 올려보겠습니다.
+다음 글은 블로그를 검색엔진에 등록하는 방법을 올려보겠습니다.   
+<br/>
+
+➕ 추가   
+VSCode Extension에서 Dev Containers를 깔고
+![image](https://github.com/user-attachments/assets/296a266b-a19c-43d1-808b-4656777000d7)
+
+컨테이너에서 다시 열기를 클릭하면 Docker 환경에서 작성할 수 있는 것 같습니다.   
+의존성 등 여러 환경이 자동으로 설치되어 동작합니다.   
+Chirpy 개발자도 권장하는 사항이긴 했는데 시도해보세요.
