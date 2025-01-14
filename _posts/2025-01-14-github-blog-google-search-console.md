@@ -5,7 +5,7 @@ date : 2025-01-14 09:00:00 +0900
 categories : [Guide, blog]
 tags: [github, blog, guide]
 image:
-  path: https://github.com/user-attachments/assets/9c201dab-f025-4562-ac11-5d9239d872e5
+  path: https://github.com/user-attachments/assets/3dcfa13f-9376-47c6-bb35-6e6bd8606311
 description: GitHub 블로그 검색창 노출시키기
 ---
 

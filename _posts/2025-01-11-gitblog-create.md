@@ -5,7 +5,7 @@ date : 2025-01-11 09:00:00 +0900
 categories : [Guide, blog]
 tags: [github, blog, guide]
 image:
-  path: https://github.com/user-attachments/assets/9c201dab-f025-4562-ac11-5d9239d872e5
+  path: https://github.com/user-attachments/assets/2a4f2314-2597-402f-a831-b5f63dbb0d8b
 description: Chirpy 테마로 GitHub 블로그 만들기
 ---
 
