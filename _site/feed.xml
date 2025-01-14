@@ -5,7 +5,7 @@
   <title>코딩하는 감자</title>
   <subtitle>우당탕탕 와르르멘션 개발일지
 </subtitle>
-  <updated>2025-01-14T15:31:34+09:00</updated>
+  <updated>2025-01-14T19:41:21+09:00</updated>
   <author>
     <name>이어진</name>
     <uri>http://localhost:4000/</uri>
@@ -21,11 +21,37 @@
 
   
   <entry>
+    <title>[React] React Hooks: useContext로 전역 상태 관리하기</title>
+    <link href="http://localhost:4000/posts/how-to-use-usecontext/" rel="alternate" type="text/html" title="[React] React Hooks: useContext로 전역 상태 관리하기" />
+    <published>2025-01-14T17:31:00+09:00</published>
+  
+    <updated>2025-01-14T17:31:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/how-to-use-usecontext/</id>
+    <content type="text/html" src="http://localhost:4000/posts/how-to-use-usecontext/" />
+    <author>
+      <name>potato</name>
+    </author>
+
+  
+    
+    <category term="React" />
+    
+    <category term="hooks" />
+    
+  
+
+  <summary>useContext란 무엇인가 + 전역 상태 관리</summary>
+
+  </entry>
+
+  
+  <entry>
     <title>[React] React Hooks: useState vs useRef 사용법과 예제</title>
     <link href="http://localhost:4000/posts/react-hooks-state-ref/" rel="alternate" type="text/html" title="[React] React Hooks: useState vs useRef 사용법과 예제" />
-    <published>2025-01-14T09:00:00+09:00</published>
+    <published>2025-01-14T13:00:00+09:00</published>
   
-    <updated>2025-01-14T09:00:00+09:00</updated>
+    <updated>2025-01-14T13:00:00+09:00</updated>
   
     <id>http://localhost:4000/posts/react-hooks-state-ref/</id>
     <content type="text/html" src="http://localhost:4000/posts/react-hooks-state-ref/" />
@@ -51,7 +77,7 @@
     <link href="http://localhost:4000/posts/github-blog-google-search-console/" rel="alternate" type="text/html" title="GitHub 블로그를 검색 엔진에 등록하기" />
     <published>2025-01-14T09:00:00+09:00</published>
   
-    <updated>2025-01-14T10:35:02+09:00</updated>
+    <updated>2025-01-14T15:32:26+09:00</updated>
   
     <id>http://localhost:4000/posts/github-blog-google-search-console/</id>
     <content type="text/html" src="http://localhost:4000/posts/github-blog-google-search-console/" />
@@ -77,7 +103,7 @@
     <link href="http://localhost:4000/posts/gitblog-create/" rel="alternate" type="text/html" title="GitHub 블로그를 생성해보자! - Chirpy 테마" />
     <published>2025-01-11T09:00:00+09:00</published>
   
-    <updated>2025-01-14T09:57:55+09:00</updated>
+    <updated>2025-01-14T15:32:26+09:00</updated>
   
     <id>http://localhost:4000/posts/gitblog-create/</id>
     <content type="text/html" src="http://localhost:4000/posts/gitblog-create/" />
@@ -120,36 +146,6 @@
   
 
   <summary>ESLint와 Prettier 설정 시 Delete `␍` eslint(prettier/prettier) 에러 해결</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Writing a New Post</title>
-    <link href="http://localhost:4000/posts/write-a-new-post/" rel="alternate" type="text/html" title="Writing a New Post" />
-    <published>2019-08-08T15:10:00+09:00</published>
-  
-    <updated>2019-08-08T15:10:00+09:00</updated>
-  
-    <id>http://localhost:4000/posts/write-a-new-post/</id>
-    <content type="text/html" src="http://localhost:4000/posts/write-a-new-post/" />
-    <author>
-      <name>cotes</name>
-    </author>
-
-  
-    
-    <category term="Blogging" />
-    
-    <category term="Tutorial" />
-    
-  
-
-  <summary>This tutorial will guide you how to write a post in the Chirpy template, and it’s worth reading even if you’ve used Jekyll before, as many features require specific variables to be set.
-
-Naming and Path
-
-Create a new file named YYYY-MM-DD-TITLE.EXTENSION and put it in the _posts of the root directory. Please note that the EXTENSION must be one of md and markdown. If you want to save time of cre...</summary>
 
   </entry>
 
