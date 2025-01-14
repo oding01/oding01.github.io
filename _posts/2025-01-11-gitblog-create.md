@@ -342,6 +342,7 @@ Github 블로그는 잘 노출되게 해주려면 검색엔진 등록 작업을 
 
 ➕ 추가   
 VSCode Extension에서 Dev Containers를 깔고
+
 ![image](https://github.com/user-attachments/assets/296a266b-a19c-43d1-808b-4656777000d7)
 
 컨테이너에서 다시 열기를 클릭하면 Docker 환경에서 작성할 수 있는 것 같습니다.   
