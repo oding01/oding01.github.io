@@ -7,7 +7,7 @@
 
 <div style='font-size:17px; margin-bottom:8px;'><strong>GitHub Blog Pages</strong></div>
 
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Foding01.github.io&count_bg=%23BABABA&title_bg=%238000FF&icon=github.svg&icon_color=%23E7E7E7&title=GITHUB+BLOG&edge_flat=false)](https://hits.seeyoufarm.com)
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Foding01.github.io&count_bg=%23BABABA&title_bg=%238000FF&icon=github.svg&icon_color=%23E7E7E7&title=GITHUB+BLOG&edge_flat=false)](https://oding01.github.io)
 
 <div style='font-size:17px; margin-bottom:8px;'><strong>Velog</strong></div>
 <div>
