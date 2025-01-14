@@ -87,9 +87,10 @@ git clone https://github.com/USERNAME/USERNAME.github.io.git
 ## 2. Ruby 설치하기
 jekyll을 사용하려면 Ruby를 설치해야 합니다.   
 > MAC의 경우에는 기본적으로 2.x버전의 ruby가 설치되어 있다고 하는데, jekyll을 사용하려면 3버전 이상의 ruby를 설치해야 합니다.
+윈도우는 [루비 다운로드](https://rubyinstaller.org/) 에 가서 다운로드 해주세요.
 {: .prompt-warning }
 
-여기서 아래의 명령어로 ruby의 버전 리스트를 확인합니다.
+여기서 아래의 명령어로 ruby의 버전 리스트를 확인합니다. (윈도우는 rbenv가 아닌 ruby 명령어로 ruby prompt를 실행시켜 [3. Jekyll 설치하기](#3-jekyll-설치하기)로 바로 넘어가주세요.)
 ```bash
 rbenv install -l
 ```
@@ -118,6 +119,8 @@ gem install jekyll
 gem install bundler
 bundle install
 ```
+> webirck 관련 에러가 난다면
+`gem install webrick`
 
 > node.js 모듈을 설치하지 않으면 `assets/js/dist/*.min.js Not Found` 에러 발생과 함께 블로그 기능이 정상적으로 동작하지 않습니다.(css가 적용되지 않는다는 등)
 {: .prompt-warning}
@@ -157,7 +160,11 @@ _오류 없이 잘 실행됐다면 볼 수 있는 화면_
 
 <br />
 
-
+## 번외. 초기화
+테마의 글 등 초기화를 진행하고 싶으신분
+```
+bash tools/init.sh
+```
 
 
 ****
@@ -348,3 +355,8 @@ VSCode Extension에서 Dev Containers를 깔고
 컨테이너에서 다시 열기를 클릭하면 Docker 환경에서 작성할 수 있는 것 같습니다.   
 의존성 등 여러 환경이 자동으로 설치되어 동작합니다.   
 Chirpy 개발자도 권장하는 사항이긴 했는데 시도해보세요.
+
+<br />
+[chirpy README.md](https://github.com/cotes2020/jekyll-theme-chirpy)   
+[window chirpy 테마 적용](https://a3magic3pocket.github.io/posts/jekyll-theme-chirpy-with-gem/)   
+[Mac OS chirpy 테마 적용](https://jinozblog.tistory.com/126)

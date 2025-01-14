@@ -5,7 +5,7 @@
   <title>코딩하는 감자</title>
   <subtitle>우당탕탕 와르르멘션 개발일지
 </subtitle>
-  <updated>2025-01-14T19:41:21+09:00</updated>
+  <updated>2025-01-14T21:07:02+09:00</updated>
   <author>
     <name>이어진</name>
     <uri>http://localhost:4000/</uri>
@@ -51,7 +51,7 @@
     <link href="http://localhost:4000/posts/react-hooks-state-ref/" rel="alternate" type="text/html" title="[React] React Hooks: useState vs useRef 사용법과 예제" />
     <published>2025-01-14T13:00:00+09:00</published>
   
-    <updated>2025-01-14T13:00:00+09:00</updated>
+    <updated>2025-01-14T19:45:02+09:00</updated>
   
     <id>http://localhost:4000/posts/react-hooks-state-ref/</id>
     <content type="text/html" src="http://localhost:4000/posts/react-hooks-state-ref/" />
