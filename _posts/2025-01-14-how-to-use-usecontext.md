@@ -100,7 +100,7 @@ Context가 뭔데? 라고 하신다면 전역 데이터를 담고 있는 하나�
 ```jsx
 import { createContext } from "react";
 
-const context = useContext()
+const context = createContext()
 ```
 <br/>
 
@@ -121,7 +121,7 @@ Initial Value에서 `value` 속성값을 지정하지 않을 경우, Context를 
 {% raw %}
 import { createContext } from "react";
 
-const Context = useContext()
+const Context = createContext()
 
 function Example() {
   const [title, setTitle] = useState('useContext')
@@ -142,6 +142,47 @@ function Example() {
 {% endraw %}
 ```
 value로는 넘겨줄 값을 넣으면 됩니다.
+#### ⚠️ 주의
+여기서 주의할 점은 Context로 관리할 <span style='color: indianred'>**상태를 최상단 부모 컴포넌트에 위치시키면 안 된다**</span>는 점입니다.
+
+최상위 부모 컴포넌트에 상태를 위치시키면 Context API를 사용하는 의미가 없어집니다. 최상단에 위치해있기 때문에 상태가 변하면 자식들의 리렌더링이 발생할 수 밖에 없기 때문이에요.
+
+그래서 보통은 Provider 컴포넌트를 하나 만들어서, 무조건 Provider 컴포넌트 안에 관리할 상태를 넣어 리렌더링 발생을 막습니다.
+
+```jsx
+{% raw %}
+import { createContext } from "react";
+
+const Context = createContext()
+
+function ContextProvider({ children }) {
+  const [title, setTitle] = useState('useContext')
+  const [content, setContent] = useState('Context provides a way to pass data through the component tree without having to pass props down manually at every level')
+
+  function handleClick() {
+    setTitle('Changed!')
+  }
+
+  return (
+    <Context.Provider value={{ title, content, handleClick }}>
+      {children}
+    </Context.Provider>
+  )
+}
+
+function Example() {
+  return (
+    <>
+      <ContextProvider>
+        <SubContainer />
+      </ContextProvider>
+    </>
+  )
+}
+{% endraw %}
+```
+
+
 <br />
 
 ***
@@ -224,19 +265,27 @@ function SubContainer() {
   </>
 }
 
-function Example() {
+function ContextProvider({ children }) {
   const [title, setTitle] = useState('useContext')
   const [content, setContent] = useState('Context provides a way to pass data through the component tree without having to pass props down manually at every level')
- 
+
   function handleClick() {
     setTitle('Changed!')
   }
-  
+
+  return (
+    <Context.Provider value={{ title, content, handleClick }}>
+      {children}
+    </Context.Provider>
+  )
+}
+
+function Example() {
   return (
     <>
-      <Context.Provider value={{ title, content, handleClick }}>
+      <ContextProvider>
         <SubContainer />
-      </Context.Provider>
+      </ContextProvider>
     </>
   )
 }
