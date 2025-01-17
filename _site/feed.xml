@@ -5,7 +5,7 @@
   <title>코딩하는 감자</title>
   <subtitle>우당탕탕 와르르멘션 개발일지
 </subtitle>
-  <updated>2025-01-15T12:03:55+09:00</updated>
+  <updated>2025-01-17T16:11:48+09:00</updated>
   <author>
     <name>이어진</name>
     <uri>http://localhost:4000/</uri>
@@ -21,11 +21,37 @@
 
   
   <entry>
+    <title>[Trouble Shooting] 리렌더링 방지를 위한 고찰</title>
+    <link href="http://localhost:4000/posts/react-rerendering-prevention/" rel="alternate" type="text/html" title="[Trouble Shooting] 리렌더링 방지를 위한 고찰" />
+    <published>2025-01-17T10:00:00+09:00</published>
+  
+    <updated>2025-01-17T10:00:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/react-rerendering-prevention/</id>
+    <content type="text/html" src="http://localhost:4000/posts/react-rerendering-prevention/" />
+    <author>
+      <name>potato</name>
+    </author>
+
+  
+    
+    <category term="React" />
+    
+    <category term="TroubleShooting" />
+    
+  
+
+  <summary>나만의 책장 만들기를 통해 컴포넌트의 리렌더링 방지에 대한 고찰</summary>
+
+  </entry>
+
+  
+  <entry>
     <title>[React] React Hooks: useContext로 전역 상태 관리하기</title>
     <link href="http://localhost:4000/posts/how-to-use-usecontext/" rel="alternate" type="text/html" title="[React] React Hooks: useContext로 전역 상태 관리하기" />
     <published>2025-01-14T17:31:00+09:00</published>
   
-    <updated>2025-01-14T17:31:00+09:00</updated>
+    <updated>2025-01-15T14:01:09+09:00</updated>
   
     <id>http://localhost:4000/posts/how-to-use-usecontext/</id>
     <content type="text/html" src="http://localhost:4000/posts/how-to-use-usecontext/" />
@@ -120,32 +146,6 @@
   
 
   <summary>Chirpy 테마로 GitHub 블로그 만들기</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>[VSCode] ESLint&amp;Prettier 설정 시 Delete `␍` eslint(prettier/prettier) 에러 해결</title>
-    <link href="http://localhost:4000/posts/eslint-prettier-error/" rel="alternate" type="text/html" title="[VSCode] ESLint&amp;amp;Prettier 설정 시 Delete `␍` eslint(prettier/prettier) 에러 해결" />
-    <published>2025-01-11T08:50:00+09:00</published>
-  
-    <updated>2025-01-12T04:45:42+09:00</updated>
-  
-    <id>http://localhost:4000/posts/eslint-prettier-error/</id>
-    <content type="text/html" src="http://localhost:4000/posts/eslint-prettier-error/" />
-    <author>
-      <name>potato</name>
-    </author>
-
-  
-    
-    <category term="VSCode" />
-    
-    <category term="TroubleShooting" />
-    
-  
-
-  <summary>ESLint와 Prettier 설정 시 Delete `␍` eslint(prettier/prettier) 에러 해결</summary>
 
   </entry>
 
