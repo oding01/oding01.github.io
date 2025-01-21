@@ -13,7 +13,7 @@ description: tsx 확장자로 변경 시 에러 트러블 슈팅
 
 나만의 책장 만들기 프로젝트를 타입스크립트를 배워 마이그레이션 해보려고 했습니다.
 
-모든 파일의 확장자 명을 `.tsx`로 변경 후 `npm run dev`를 실행하여 확인하려 했습니다.
+모든 파일의 확장자 명을 `.tsx`로 변경 `npm run dev`를 실행하여 확인하려 했습니다.
 
 > [vite] Pre-transform error: Failed to load url /src/main.jsx (resolved id: /src/main.jsx). Does the file exist?
 
