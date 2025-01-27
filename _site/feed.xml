@@ -5,7 +5,7 @@
   <title>코딩하는 감자</title>
   <subtitle>우당탕탕 와르르멘션 개발일지
 </subtitle>
-  <updated>2025-01-17T16:11:48+09:00</updated>
+  <updated>2025-01-28T14:30:52+09:00</updated>
   <author>
     <name>이어진</name>
     <uri>http://localhost:4000/</uri>
@@ -13,11 +13,37 @@
   <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
   <link rel="alternate" type="text/html" hreflang="en"
     href="http://localhost:4000/"/>
-  <generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator>
+  <generator uri="https://jekyllrb.com/" version="4.4.0">Jekyll</generator>
   <rights> © 2025 이어진 </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>[Typescript] main.jsx를 main.tsx로 변경 시 에러</title>
+    <link href="http://localhost:4000/posts/main-jsx-error/" rel="alternate" type="text/html" title="[Typescript] main.jsx를 main.tsx로 변경 시 에러" />
+    <published>2025-01-20T15:45:00+09:00</published>
+  
+    <updated>2025-01-21T15:10:19+09:00</updated>
+  
+    <id>http://localhost:4000/posts/main-jsx-error/</id>
+    <content type="text/html" src="http://localhost:4000/posts/main-jsx-error/" />
+    <author>
+      <name>potato</name>
+    </author>
+
+  
+    
+    <category term="React" />
+    
+    <category term="TroubleShooting" />
+    
+  
+
+  <summary>tsx 확장자로 변경 시 에러 트러블 슈팅</summary>
+
+  </entry>
 
   
   <entry>
@@ -120,32 +146,6 @@
   
 
   <summary>GitHub 블로그 검색창 노출시키기</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>GitHub 블로그를 생성해보자! - Chirpy 테마</title>
-    <link href="http://localhost:4000/posts/gitblog-create/" rel="alternate" type="text/html" title="GitHub 블로그를 생성해보자! - Chirpy 테마" />
-    <published>2025-01-11T09:00:00+09:00</published>
-  
-    <updated>2025-01-14T21:07:32+09:00</updated>
-  
-    <id>http://localhost:4000/posts/gitblog-create/</id>
-    <content type="text/html" src="http://localhost:4000/posts/gitblog-create/" />
-    <author>
-      <name>potato</name>
-    </author>
-
-  
-    
-    <category term="Guide" />
-    
-    <category term="blog" />
-    
-  
-
-  <summary>Chirpy 테마로 GitHub 블로그 만들기</summary>
 
   </entry>
 
