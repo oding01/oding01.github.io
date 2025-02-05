@@ -3,7 +3,7 @@ title : "[CSS] header가 잘리는 현상"
 author: potato
 date : 2025-02-04 15:30:00 +0900
 categories : [React, TroubleShooting]
-tags: [react, hooks, javascript, troubleshooting,]
+tags: [react, javascript, typescript, troubleshooting,]
 image:
   path: https://github.com/user-attachments/assets/cc584f76-b207-47df-aae1-9605a42af368
 description: header가 전체를 차지하지 못하고 잘리는 현상

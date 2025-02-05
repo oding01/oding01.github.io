@@ -4,6 +4,38 @@
         xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
+        <loc>http://localhost:4000/posts/calendar-width-trouble-shooting/</loc>
+        
+        <lastmod>2025-02-05T14:56:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
+        <loc>http://localhost:4000/posts/css-trouble-shooting/</loc>
+        
+        <lastmod>2025-02-04T15:30:00+09:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
         <loc>http://localhost:4000/posts/main-jsx-error/</loc>
         
         <lastmod>2025-01-20T15:45:00+09:00</lastmod>
