@@ -143,3 +143,5 @@ Table.displayName = "Table"
 ![Image](https://github.com/user-attachments/assets/9f008f0c-3927-4666-a7e2-fdcc34720242)
 
 가로 길이가 제일 작았던 Galaxy Z Fold 5 (344px) 에서도 스크롤과 잘림 없이 제대로 가운데에 위치해있는 걸 볼 수 있었습니다! 성공!
+
+➕ 아예 자식 요소들의 width를 정해줄 수도 있지만 유연하게 가고 싶어서 flex를 선택해봤습니다.
