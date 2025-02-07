@@ -5,7 +5,7 @@
   <title>코딩하는 감자</title>
   <subtitle>우당탕탕 와르르멘션 개발일지
 </subtitle>
-  <updated>2025-02-05T15:09:08+09:00</updated>
+  <updated>2025-02-08T03:03:00+09:00</updated>
   <author>
     <name>이어진</name>
     <uri>http://localhost:4000/</uri>
@@ -25,7 +25,7 @@
     <link href="http://localhost:4000/posts/calendar-width-trouble-shooting/" rel="alternate" type="text/html" title="[CSS] Calendar가 부모 요소를 벗어나 overflow 되는 현상" />
     <published>2025-02-05T14:56:00+09:00</published>
   
-    <updated>2025-02-05T14:56:00+09:00</updated>
+    <updated>2025-02-05T16:13:21+09:00</updated>
   
     <id>http://localhost:4000/posts/calendar-width-trouble-shooting/</id>
     <content type="text/html" src="http://localhost:4000/posts/calendar-width-trouble-shooting/" />
@@ -51,7 +51,7 @@
     <link href="http://localhost:4000/posts/css-trouble-shooting/" rel="alternate" type="text/html" title="[CSS] header가 잘리는 현상" />
     <published>2025-02-04T15:30:00+09:00</published>
   
-    <updated>2025-02-04T15:30:00+09:00</updated>
+    <updated>2025-02-05T15:33:32+09:00</updated>
   
     <id>http://localhost:4000/posts/css-trouble-shooting/</id>
     <content type="text/html" src="http://localhost:4000/posts/css-trouble-shooting/" />
